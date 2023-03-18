@@ -14,7 +14,7 @@ from sklearn.ensemble import RandomForestClassifier
   
 
 # Loading the trained model
-pickle_in = open(r"C:\Users\My Acer\Downloads\classifier2.pkl", 'rb') 
+pickle_in = open("classifier2.pkl", 'rb') 
 classifier = pickle.load(pickle_in)
 
 
